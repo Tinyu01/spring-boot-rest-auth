@@ -1,6 +1,6 @@
-# Deployment Instructions for My Java App
+# Deployment Instructions for Spring Security Demo
 
-This document provides instructions for deploying the My Java App application.
+This document provides instructions for deploying the Spring Security Demo application.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ Before deploying the application, ensure that you have the following:
 
 1. Navigate to the root directory of the project:
    ```
-   cd /path/to/my-java-app
+   cd /path/to/spring-security-demo
    ```
 
 2. Build the application using Maven:
@@ -30,7 +30,7 @@ Before deploying the application, ensure that you have the following:
 
 1. Run the application locally using the following command:
    ```
-   java -jar target/my-java-app-0.0.1-SNAPSHOT.jar
+   java -jar target/spring-security-demo-0.0.1-SNAPSHOT.jar
    ```
 
 2. Access the application in your web browser at:
@@ -42,7 +42,7 @@ Before deploying the application, ensure that you have the following:
 
 1. Copy the JAR file to your remote server using SCP or any file transfer method:
    ```
-   scp target/my-java-app-0.0.1-SNAPSHOT.jar user@remote-server:/path/to/deploy/
+   scp target/spring-security-demo-0.0.1-SNAPSHOT.jar user@remote-server:/path/to/deploy/
    ```
 
 2. SSH into your remote server:
@@ -57,7 +57,7 @@ Before deploying the application, ensure that you have the following:
 
 4. Run the application on the server:
    ```
-   java -jar my-java-app-0.0.1-SNAPSHOT.jar
+   java -jar spring-security-demo-0.0.1-SNAPSHOT.jar
    ```
 
 5. Ensure that the application is running by accessing it in your web browser:
@@ -73,7 +73,7 @@ Before deploying the application, ensure that you have the following:
 
 - Monitor the application logs to ensure it is running smoothly. Logs will be printed to the console by default. You can redirect them to a file if needed:
   ```
-  java -jar my-java-app-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
+  java -jar spring-security-demo-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
   ```
 
 ## Conclusion
