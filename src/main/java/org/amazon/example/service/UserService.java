@@ -1,5 +1,6 @@
 package org.amazon.example.service;
 
+import org.amazon.example.entity.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import java.util.HashMap;
